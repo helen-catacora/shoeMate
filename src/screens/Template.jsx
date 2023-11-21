@@ -1,9 +1,20 @@
 import React from 'react'
+import { informaciones } from '../assets/noticiasApi'
+import Noticias from '../componentes/Noticias'
 
-function Template() {
+function Template(props) {
+  const informaciones =props.informaciones
   return (
     <>
-    <h2>holaa</h2>
+    <section>
+      {
+        informaciones.map(info => {
+          return (
+            <Noticias informaciones = {info}/>
+          )
+        })
+      }
+    </section>
     </>
   )
 }
