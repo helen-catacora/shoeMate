@@ -1,9 +1,10 @@
 import React from 'react'
+import InfoFooter from '../componentes/moleculas/InfoFooter'
 
 function Template() {
   return (
     <>
-    <h2>holaa</h2>
+      <InfoFooter />
     </>
   )
 }
