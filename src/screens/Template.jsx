@@ -2,7 +2,9 @@ import React from 'react'
 
 function Template() {
   return (
-    <div>Template</div>
+    <>
+    <h2>holaa</h2>
+    </>
   )
 }
 
