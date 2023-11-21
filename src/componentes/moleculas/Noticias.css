@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    text-align: center;
+}
+.font {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+.cuerpo { 
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.info { 
+    position: relative;
+    margin-top: -300px;
+}
+.info2 {
+    margin-top: 100px;
+}
+.butt {
+    background-color: black;
+    border-radius: 5px;
+    color: azure;
+    width: 200px;
+    text-decoration: none;
+}
