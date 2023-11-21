@@ -1,0 +1,28 @@
+header{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.botones_log{
+    display: inline;
+    margin-left: 80%;   
+}
+button{
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 7px;
+}
+.navbar{
+    display: inline;
+    margin-left: 300px;
+}
+.buscar{
+    display: inline;
+    margin-left: 150px;
+}
+.nav{
+    position: relative;
+    margin-top: -140px;
+}
+.marcas{
+    margin-left: 350px;
+}

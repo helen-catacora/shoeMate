@@ -1,10 +1,8 @@
 import React from 'react'
-import header from '../componentes/organisms/header'
+import Header from '../componentes/organisms/header'
 function Template() {
   return (
-    <div>
-      <header/>
-    </div>
+    <Header />
   )
 }
 
