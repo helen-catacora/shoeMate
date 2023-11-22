@@ -1,0 +1,35 @@
+.ePrivacy{
+    display: flex;
+    align-items: center;
+}
+
+.cardPrivacy{
+    display: flex;
+    justify-content: space-evenly;
+    width: 288px;
+}
+
+.cardPrivacy a{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.copyRigth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.copyRigth img{
+    width: 39px;
+    height: 68px;
+    margin: 15px;
+}
+
+.copyRigth p{
+    color: white;
+}

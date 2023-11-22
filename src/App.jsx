@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Templates from './screens/Template'
+
 import './App.css'
+import Footer from './componentes/organisms/Footer'
 
 function App() {
 
   return (
     <>
-      <Templates />
+      <Footer />
     </>
   )
 }

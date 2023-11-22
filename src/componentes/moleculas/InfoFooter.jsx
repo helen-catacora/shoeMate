@@ -1,24 +1,28 @@
 import React from 'react'
+import './InfoFooter.css'
 
 function InfoFooter() {
   return (
-    <section>
+    <section className='infoCard'>
         <div>
             <h2>Product</h2>
-            <p>Shoes</p>
+            <a href="">Shoes</a>
         </div>
         <div>
             <h2>About Us</h2>
-            <p>Careers</p>
+            <a href="">Careers</a>
         </div>
         <div>
             <h2>Support</h2>
-            <p>FAQ</p>
-            <p>General Policy</p>
+            <a href="">FAQ</a>
+            <a href="">General Policy</a>
         </div>
         <div>
             <h2>Contact</h2>
-            <p>Email: </p>
+            <a href="">Email: Grupodelosenfermos@mail.com</a>
+        </div>
+        <div>
+            <img src="/ShoeMate/logo.png" alt="" />
         </div>
     </section>
   )
