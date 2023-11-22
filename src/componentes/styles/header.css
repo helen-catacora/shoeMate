@@ -11,7 +11,7 @@ header{
 button{
     background-color: transparent;
     border-color: transparent;
-    padding-left: 30px;
+    padding-left: 25px;
 }
 .navbar{
     display: inline;
@@ -19,10 +19,10 @@ button{
 }
 .buscar{
     display: inline;
-    padding-left: 40%;
+    padding-left: 32%;
 }
 .nav{
-    
+    padding-top: 5px;
 }
 .marcas{
     padding-left: 25%;
