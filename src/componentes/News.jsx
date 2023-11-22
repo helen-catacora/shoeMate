@@ -6,7 +6,7 @@ function News() {
     
   return (
     <section>
-        <h2>Noticias</h2>
+        <h2 className='title'>Noticias</h2>
         <Noticias informaciones={informaciones}/>
     </section>
     

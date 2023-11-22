@@ -8,15 +8,17 @@ function Noticias(props) {
     <article className='font'>
         <div className='cuerpo'>
             <img src= {informaciones[0].imgFond} alt="" />
-            <div className='info'>
-                <h3>
-                    {informaciones[0].title}
-                </h3>
-            </div>
-            <div className='info2'>
-                <p>
-                    {informaciones[0].description}
-                </p>
+            <div className='complet'>
+                <div className='info'>
+                    <h3>
+                        {informaciones[0].title}
+                    </h3>
+                </div>
+                <div className='info2'>
+                    <p>
+                        {informaciones[0].description}
+                    </p>
+                </div>
             </div>
             <div className='bord'>
                 <a href="" className='butt'>
@@ -26,15 +28,17 @@ function Noticias(props) {
         </div>
         <div className='cuerpo'>
             <img src= {informaciones[1].imgFond} alt="" />
-            <div className='info'>
-                <h3>
-                    {informaciones[1].title}
-                </h3>
-            </div>
-            <div className='info2'>
-                <p>
-                    {informaciones[1].description}
-                </p>
+            <div className='complet'>
+                <div className='info'>
+                    <h3>
+                        {informaciones[1].title}
+                    </h3>
+                </div>
+                <div className='info2'>
+                    <p>
+                        {informaciones[1].description}
+                    </p>
+                </div>
             </div>
             <div className='bord'>
                 <a href="" className='butt'>
