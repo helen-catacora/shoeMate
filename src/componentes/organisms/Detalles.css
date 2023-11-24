@@ -1,0 +1,122 @@
+.contenedor {
+  width: 822px;
+}
+.nom_prod {
+  color: var(--character-title-85, rgba(0, 0, 0, 0.85));
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 75% */
+}
+.mod_prod {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 110% */
+}
+.series {
+  display: flex;
+  justify-content: space-between;
+}
+.colores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.color1 {
+  display: flex;
+  flex-direction: column;
+}
+.color2 {
+  display: flex;
+  flex-direction: column;
+}
+.blanco {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+}
+.negro {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background: #232321;
+}
+.naranja {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background: #f08155;
+}
+.gris {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background: #c9ccc6;
+}
+.nom_color1 {
+  display: flex;
+  gap: 30px;
+}
+.bot_color1 {
+  display: flex;
+  gap: 25px;
+}
+
+.Amarillo {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background: #ffa52f;
+}
+.Marron {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background: #bb8056;
+}
+.Azul {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background: #5d7e9d;
+}
+.Rojo {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background: #f64133;
+}
+.nom_color2 {
+  display: flex;
+  gap: 27px;
+}
+.bot_color2 {
+  display: flex;
+  gap: 25px;
+}
+.btn_talla {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+}
+.tallas{
+    padding-left: 20px;
+}
+.bts_talls{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
